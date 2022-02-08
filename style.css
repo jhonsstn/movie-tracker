@@ -45,6 +45,7 @@ body {
   margin-left: 100px;
   font-family: 'Roboto', sans-serif;
   color: var(--dark-orchid);
+  cursor: pointer;
 }
 
 .search_container {

@@ -1,6 +1,13 @@
 const input = document.querySelector('.movie_name');
 const button = document.querySelector('.search_movie');
 const deckContainer = document.querySelector('.deck');
+const pageTitle = document.querySelector('.page_title');
+
+function refreshPage() {
+  window.location.reload();
+}
+
+pageTitle.addEventListener('click', refreshPage);
 
 const searchObject = {
   name: 'Homem de ferro',
